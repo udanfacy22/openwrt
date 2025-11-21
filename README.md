@@ -1,20 +1,20 @@
 ![OpenWrt logo](include/logo.png)
 
-OpenWrt Project is a Linux operating system targeting embedded devices. Instead
+OpenWrt is a Linux operating system targeting embedded devices. Instead
 of trying to create a single, static firmware, OpenWrt provides a fully
 writable filesystem with package management. This frees you from the
 application selection and configuration provided by the vendor and allows you
 to customize the device through the use of packages to suit any application.
 For developers, OpenWrt is the framework to build an application without having
-to build a complete firmware around it; for users this means the ability for
-full customization, to use the device in ways never envisioned.
+to build a complete firmware around it; for users, this means the ability to
+full customize the device and use it in ways the manufacturer never envisioned.
 
 Sunshine!
 
 ## Download
 
 Built firmware images are available for many architectures and come with a
-package selection to be used as WiFi home router. To quickly find a factory
+package selection to be used as Wi-Fi home router. To quickly find a factory
 image usable to migrate from a vendor stock firmware to OpenWrt, try the
 *Firmware Selector*.
 
@@ -25,20 +25,19 @@ instructions or consult the support resources listed below.
 
 ## 
 
-An advanced user may require additional or specific package. (Toolchain, SDK, ...) For everything else than simple firmware download, try the wiki download page:
+An advanced user may require additional or specific packages (e.g. Toolchain, SDK, etc). For anything beyond simple firmware download, try the wiki download page:
 
 * [OpenWrt Wiki Download](https://openwrt.org/downloads)
 
 ## Development
 
-To build your own firmware you need a GNU/Linux, BSD or macOS system (case
-sensitive filesystem required). Cygwin is unsupported because of the lack of a
-case sensitive file system.
+To build your own firmware, you need a GNU/Linux, BSD or macOS system (case-sensitive filesystem required). Cygwin is unsupported because of the lack of a
+case-sensitive file system.
 
 ### Requirements
 
-You need the following tools to compile OpenWrt, the package names vary between
-distributions. A complete list with distribution specific packages is found in
+You need the following tools to compile OpenWrt, but note that the package names vary between
+distributions. A complete list with distribution-specific packages is found in
 the [Build System Setup](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem)
 documentation.
 
@@ -83,7 +82,7 @@ packages to OpenWrt, please find the fitting repository below.
 
 ## Support Information
 
-For a list of supported devices see the [OpenWrt Hardware Database](https://openwrt.org/supported_devices)
+For a list of supported devices, see the [OpenWrt Hardware Database](https://openwrt.org/supported_devices).
 
 ### Documentation
 
@@ -94,7 +93,7 @@ For a list of supported devices see the [OpenWrt Hardware Database](https://open
 
 ### Support Community
 
-* [Forum](https://forum.openwrt.org): For usage, projects, discussions and hardware advise.
+* [Forum](https://forum.openwrt.org): For usage, projects, discussions and hardware advice.
 * [Support Chat](https://webchat.oftc.net/#openwrt): Channel `#openwrt` on **oftc.net**.
 
 ### Developer Community
@@ -105,4 +104,4 @@ For a list of supported devices see the [OpenWrt Hardware Database](https://open
 
 ## License
 
-OpenWrt is licensed under GPL-2.0
+OpenWrt is licensed under GPL-2.0.
